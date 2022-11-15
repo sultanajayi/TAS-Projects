@@ -180,3 +180,29 @@ DevTools listening on ws://127.0.0.1:58791/devtools/browser/138fa4f4-9a1d-4e3e-8
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
 1668504481203	Marionette	INFO	Stopped listening on port 58804
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668504549170	geckodriver	INFO	Listening on 127.0.0.1:58928
+1668504552204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileopKRTF"
+1668504552809	Marionette	INFO	Marionette enabled
+1668504552819	Marionette	INFO	Listening on port 58942
+Read port: 58942
+WebDriver BiDi listening on ws://127.0.0.1:58929
+1668504553036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileopKRTF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58929/devtools/browser/5e6e4453-36d4-4630-bdf1-33ac795a60d6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668510668360	Marionette	INFO	Stopped listening on port 58942
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileBjB18J"
+1668505306530	Marionette	INFO	Marionette enabled
+1668505306553	Marionette	INFO	Listening on port 59478
+Read port: 59478
+WebDriver BiDi listening on ws://127.0.0.1:59469
+1668505306768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileBjB18J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59469/devtools/browser/5622ced1-466d-4e3c-9d19-c27a67e6bf73
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668510678905	Marionette	INFO	Stopped listening on port 59478
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
