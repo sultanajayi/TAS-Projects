@@ -206,3 +206,36 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1668510678905	Marionette	INFO	Stopped listening on port 59478
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 !!! error running onStopped callback: TypeError: callback is not a function
+1668714935478	geckodriver	INFO	Listening on 127.0.0.1:51647
+1668714938563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51648" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekyzfc4"
+1668714942579	Marionette	INFO	Marionette enabled
+1668714942610	Marionette	INFO	Listening on port 51658
+Read port: 51658
+WebDriver BiDi listening on ws://127.0.0.1:51648
+1668714943036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekyzfc4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51648/devtools/browser/d5c3be64-c171-4505-85c1-1a0420d346cb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668715142605	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1668716061722	Marionette	INFO	Stopped listening on port 51658
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675189343048	geckodriver	INFO	Listening on 127.0.0.1:52315
+1675189346056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52316" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEzBix0"
+1675189349459	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675189349467	Marionette	INFO	Listening on port 52324
+Read port: 52324
+WebDriver BiDi listening on ws://127.0.0.1:52316
+1675189349751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileEzBix0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52316/devtools/browser/6df334c7-bc11-4cd6-90fe-2fd01ab90dc5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1675189420246	Marionette	INFO	Stopped listening on port 52324
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

@@ -17,8 +17,7 @@ def main():
     send_keys_to_element(driver.find_element(By.NAME, "pass"), "Hello419$")
     login = driver.find_element(By.TAG_NAME, "button").click()
 
-    time.sleep(5)
-
+    time.sleep(30)
 
 if __name__ == '__main__':
     main()
